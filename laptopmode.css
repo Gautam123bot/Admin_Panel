@@ -1,0 +1,10 @@
+@media all and (min-width: 768px) {
+    .content {
+        position: absolute;
+        width: calc(100% - 230px);
+        left: 230px;
+    }
+    .small-search-icon{
+        display: none !important;
+    }
+}
