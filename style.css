@@ -43,15 +43,13 @@ body {
 }
 
 .sidebar {
-    position: absolute;
+    position: fixed;
     width: 230px;
-    min-height: 100%;
     left: 0px;
     background: #101124;
     transition: left 0.4s ease;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    overflow: auto;
+    height: 100%;
 }
 
 .sidebar.show {
@@ -364,4 +362,8 @@ li a:hover {
     font-weight: 500;
     font-size: 20px;
     color: #464646;
+}
+
+.pie-chart-heading{
+    float: right;
 }
