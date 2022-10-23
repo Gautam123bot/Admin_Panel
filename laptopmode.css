@@ -1,8 +1,8 @@
 @media all and (min-width: 768px) {
     .content {
         position: absolute;
-        width: calc(100% - 230px);
-        left: 230px;
+        width: calc(100% - 270px);
+        left: 270px;
     }
     .small-search-icon{
         display: none !important;
